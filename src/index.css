@@ -11,3 +11,131 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+  box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+  background-color: #2b2c39;
+}
+
+/* ------------------Header -----------*/
+.header {
+  background-color: #191a22;
+  height: 4rem;
+}
+
+.header h2 {
+  color: #fff;
+  padding: 1.2rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+/* ------------------main-------------- */
+.user-result-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.user-item {
+  border: 3px solid #bfbfc3;
+  border-radius: 0.5rem;
+  width: 250px;
+  height: 250px;
+  margin: 1rem;
+  box-shadow: 0px 0px 6px 3px #bfbfc3;
+}
+.user-item .image-container{
+  width: 250px;
+  height: 200px;
+}
+.user-item .image-container img{
+  width: 245px;
+	height: 200px;
+  object-fit: fill;
+	border-radius: 0.5rem 0.5rem 0 0;
+}
+.user-item p{
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+ text-align: center;
+ padding-top: 1rem;
+}
+
+/* ------------------search form-------------- */
+.search-form {
+  padding: 3rem 5rem;
+  
+}
+.search-form form {
+  border: 3px solid #bfbfc3;
+  display: inline-block;
+  border-radius: 0.2rem;
+}
+.search-form input {
+  padding: 1rem;
+}
+
+.search-form button {
+  background-color: #414256;
+  padding: 1rem;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+/* ------------------footer-------------- */
+.footer {
+  background-color: #191a22;
+  height: 4rem;
+}
+
+.footer p{
+  color: #fff;
+  text-align: center;
+  padding-top: 1.5rem;
+  font-size: 1.2rem;
+}
+

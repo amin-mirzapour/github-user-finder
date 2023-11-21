@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Home from './pages/Home';
 import About from './pages/About';
 import { GithubProvider } from './context/GithubContext';
+import UserDetails from './pages/UserDetails';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/user/:login" element={<UserDetails />} />
             <Route path="/about" element={<About />} />
           </Routes>
         </main>

@@ -7,6 +7,7 @@ import Spinner from "./Spinner"
 const UserSearchResult = () => {
 
     const {users, loading} = useContext(GithubContext)
+    
     return (
      <>
      <UserSearch/>
